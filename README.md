@@ -38,6 +38,7 @@ python predict.py \
     --output_dir <output_dir>
     --model_path <model path>
 ```
+※予測したHTMLを表画像として確認したい場合, visualize_html.ipynbをご使用ください.
 
 
 ### model

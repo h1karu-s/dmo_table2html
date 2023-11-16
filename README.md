@@ -51,3 +51,5 @@ model.tar.tzには, 4つのモデルを保存している.
 * swin-en_fintabnet_512-1024 \
   * fintabnetの系列長が入力テキスト<512, 生成HTML<1024となる表を使って学習したswin_transformer-mbart
 
+https://github.com/h1karu-s/dmo_table2html/assets/65395880/80c162ba-74ba-4318-861b-f27ad4f79f6e
+

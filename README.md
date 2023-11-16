@@ -43,13 +43,13 @@ python predict.py \
 
 ### model
 model.tar.gzには, 4つのモデルを保存している.
-* layoutlmv3-en_pubtabnet_200-400_paddle-ocr　\
+* layoutlmv3-en_pubtabnet_200-400_paddle-ocr
   * pubtabnetの系列長が入力テキスト<200, 生成HTML<400となる表をpaddle ocrの出力を使って学習したLayoutLMv3-mbart
-* layoutlmv3-en_fintabnet_512-1024_paddle-ocr \
+* layoutlmv3-en_fintabnet_512-1024_paddle-ocr
   * fintabnetの系列長が入力テキスト<512, 生成HTML<1024となる表をpaddle ocrの出力を使って学習したLayoutLMv3-mbart
-* swin-en_pubtabnet_200-400 \
+* swin-en_pubtabnet_200-400
   * pubtabnetの系列長が入力テキスト<200, 生成HTML<400となる表を使って学習したswin_transformer-mbart
-* swin-en_fintabnet_512-1024 \
+* swin-en_fintabnet_512-1024
   * fintabnetの系列長が入力テキスト<512, 生成HTML<1024となる表を使って学習したswin_transformer-mbart
 
 ![モデル_表](https://github.com/h1karu-s/dmo_table2html/assets/65395880/80c162ba-74ba-4318-861b-f27ad4f79f6e)

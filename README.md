@@ -4,7 +4,7 @@
 
 ## 利用方法
 ### 0. setup
-Googleドライブ(https://drive.google.com/file/d/1wPMUuIVcPFf4qJCsL6l0FY44tMSdQOGl/view?usp=sharing)から学習済みパラメータを取得する.
+Googleドライブ(https://drive.google.com/file/d/1wPMUuIVcPFf4qJCsL6l0FY44tMSdQOGl/view?usp=sharing) から学習済みパラメータを取得する.
 以下のコマンドを実行
 ```
 FILE_ID=1wPMUuIVcPFf4qJCsL6l0FY44tMSdQOGl

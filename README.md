@@ -42,7 +42,7 @@ python predict.py \
 
 
 ### model
-model.tar.tzには, 4つのモデルを保存している.
+model.tar.gzには, 4つのモデルを保存している.
 * layoutlmv3-en_pubtabnet_200-400_paddle-ocr　\
   * pubtabnetの系列長が入力テキスト<200, 生成HTML<400となる表をpaddle ocrの出力を使って学習したLayoutLMv3-mbart
 * layoutlmv3-en_fintabnet_512-1024_paddle-ocr \

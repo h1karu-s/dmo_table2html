@@ -18,7 +18,7 @@ curl -Lb /tmp/cookie "https://drive.google.com/uc?export=download&confirm=${CODE
 tar -zxvf model.tar.gz
 ```
 対応するpaddle ocrを取得
-※ホームページから環境に対応するものをダウンロードする(https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/linux-pip.html)
+※ホームページから環境に対応するものをダウンロードする(https://www.paddlepaddle.org.cn/en)
 ```
 ##cuda11.6の例
 python -m pip install paddlepaddle-gpu==2.5.2.post116 -f https://www.paddlepaddle.org.cn/whl/linux/mkl/avx/stable.html

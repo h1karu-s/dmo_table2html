@@ -1,0 +1,1 @@
+<table><thead><tr><td></td><td><b>120°</b></td><td><b>120°</b></td><td><b>140°</b></td></tr></thead><tbody><tr><td><b>precision (%)</b></td><td>72.92</td><td>65.96</td><td>47.92</td></tr><tr><td><b>recall (%)</b></td><td>85.37</td><td>96.88</td><td>100.00</td></tr><tr><td><b><i>f</i>-measure(%)</b></td><td>84.34</td><td>78.48</td><td>64.79</td></tr></tbody></table>

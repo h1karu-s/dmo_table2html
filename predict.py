@@ -12,7 +12,7 @@ def preprocessing_data_swin(model, data):
     #tokenizer
     encoder_processor = model.encoder.prepare_input
     for sample in data:
-        image = Image.open(sample["image_path"])
+        image = Image.open(sample["image_path"]).convert("RGB")
         encoder_encoding = encoder_processor(image)
         sample["encoding_inputs"] = encoder_encoding
     return data
@@ -21,7 +21,7 @@ def preprocessing_data_layoutlm(model, data):
     #tokenizer
     encoder_processor = model.encoder.prepare_input
     for sample in data:
-        image = Image.open(sample["image_path"])
+        image = Image.open(sample["image_path"]).convert("RGB")
         encoder_encoding = encoder_processor(image, sample["texts"], bboxes=sample["boxes"])
         encoder_encoding["bbox"] = (encoder_encoding["bbox"]*1000).to(torch.int32)
         sample["encoding_inputs"] = encoder_encoding
@@ -62,7 +62,7 @@ def main(args):
         data = []
         for image_name in os.listdir(args.input_dir):
             image_path = f"{args.input_dir}/{image_name}"
-            img = Image.open(image_path)
+            img = Image.open(image_path).convert("RGB")
             w, h = img.size
             results = ocr.ocr(image_path, cls=False)
             result = results[0]

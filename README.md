@@ -54,3 +54,8 @@ model.tar.gzには, 4つのモデルを保存している.
 
 ![モデル_表](https://github.com/h1karu-s/dmo_table2html/assets/65395880/80c162ba-74ba-4318-861b-f27ad4f79f6e)
 
+### option
+一番精度が高かったSwin Transformer-BARTのモデルを以下のgoogle driveに保存している．必要に応じてご利用ください！
+https://drive.google.com/file/d/1WeSp88xtIyVuR0P4iRdMPlPCpy6FgKZX/view?usp=sharing
+
+
